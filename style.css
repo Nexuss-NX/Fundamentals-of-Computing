@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url(F.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    width: 91px;
+    height: 100px;
+    padding: 20px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Robot', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sidenav{
+    display: flex;
+    position: relative;
+}
+
+.sidenav .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgb(13, 240, 164);
+    padding: 30px 0;
+    background: transparent;
+}
+
+.sidenav .sidebar h3{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    background: rgb(255, 255, 254);
+}
+
+.sidenav .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.sidenav .sidebar ul li:hover{
+    background: aquamarine;
+    margin-right: white;
+    margin-left: white;
+    text-align: center;
+}
+
+.sidenav .sidebar ul li a{
+    text-decoration: none;
+    color:black;
+}
+
